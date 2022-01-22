@@ -5,4 +5,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background">#fc4f39</color>
+    <color name="button">#Ff3500</color>
 </resources>

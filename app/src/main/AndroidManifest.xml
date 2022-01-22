@@ -10,10 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodRunner">
         <activity
-            android:name=".RegisterActivity"
+            android:name=".activity.ForgetPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".activity.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,8 +28,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
-            android:exported="true"></activity>
+            android:name=".activity.LoginActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

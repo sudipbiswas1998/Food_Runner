@@ -1,10 +1,10 @@
-package com.sudip.foodrunner
+package com.sudip.foodrunner.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.view.WindowManager
+import com.sudip.foodrunner.R
 
 class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

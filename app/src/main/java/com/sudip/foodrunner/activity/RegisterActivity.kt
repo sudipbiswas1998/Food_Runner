@@ -1,8 +1,8 @@
-package com.sudip.foodrunner
+package com.sudip.foodrunner.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MenuItem
+import com.sudip.foodrunner.R
 
 class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
